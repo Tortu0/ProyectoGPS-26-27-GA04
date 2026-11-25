@@ -792,7 +792,7 @@ function obtenerCategorias() {
         }
     });
     return categorias.sort(function(a, b) {
-    return a.localeCompare(b, "es");
+        return a.localeCompare(b, "es");
 });
 }
 
